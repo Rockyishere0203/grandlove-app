@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#MaAa - My Grandest Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video id="bg-video" autoplay loop muted playsinline>
+        <source src="titanic-bg.mp4" type="video/mp4">
+    </video>
+    <audio id="bg-music" src="titanic-music.mp3" loop></audio>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>#MaAa</h1>
+        <div id="welcome" class="hidden">
+            <p>My Mannu, this is your Anandh’s grandest love—made for you, my divine.</p>
+        </div>
+        <div class="letter-container">
+            <img id="letter-icon" src="https://img.icons8.com/emoji/48/love-letter.png" alt="Love Letter">
+            <div id="letter" class="hidden">
+                <div id="hand"></div>
+                <div id="letter-content" class="hidden">
+                    <h2>My Dearest Mannu,</h2>
+                    <p>April 12, 2025,here we are, my divine, my cutie pie, my everything. From that first “hi” to every laugh you’ve gifted me, I’ve been counting the seconds to see your eyes, to see you smile. You’re the best thing that’s ever happened to me, baby, my sweet dumbo. This moment, our first meet, is a dream come true and it’s just the start. I love you the most. I will always do. To the infinity and beyond.</p>
+                    <p>Yours always,<br> Mannu's Anandh</p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <h2>Your Daily Love Note</h2>
+            <button id="reveal-btn">Unleash Today’s Love</button>
+            <p id="message" class="hidden"></p>
+            <div id="hearts"></div>
+        </section>
+        <section>
+            <h2>Feel My Embrace</h2>
+            <button id="hug-btn">Get a Hug</button>
+            <div id="hug-animation" class="hidden">🤗</div>
+        </section>
+        <section>
+            <h2>Our Eternal Sky</h2>
+            <canvas id="stars"></canvas>
+            <p id="star-name"></p>
+        </section>
+        <section>
+            <h2>How’s My Mannu Feeling?</h2>
+        <select id="mood">
+            <option value="">Pick a Mood</option>
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="excited">Excited</option>
+            <option value="annoyed">Annoyed</option>
+            <option value="bored">Bored</option>
+            <option value="iNeedU">I Need U</option>
+            <option value="loving">Loving</option>
+            <option value="tired">Tired</option>
+        </select>
+            <p id="mood-response" class="hidden"></p>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init("BKSZmYvtlPSlQyP6M"); // Replace with your EmailJS User ID
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
