@@ -24,11 +24,7 @@ letterIcon.addEventListener('click', () => {
 
 // Love Notes
 const loveNotes = [
-    "Mannu, U r ntg but divine",
-    "U r the best thing ever happened to me baby",
-    "My sweet dumbo, u r the best",
-    "BIGGGGG TIGHTTTT HUGSSS",
-    "MY cutie pie"
+    "You deserve the best, baby. I hope i will be that best someday"
 ];
 const revealBtn = document.getElementById('reveal-btn');
 const messageEl = document.getElementById('message');
@@ -82,14 +78,14 @@ canvas.addEventListener('click', () => {
 const moodSelect = document.getElementById('mood');
 const moodResponse = document.getElementById('mood-response');
 const responses = {
-    happy: "My Mannu’s happy—best feeling ever!",
+    happy: "My Mannu’s happy...best feeling ever!",
     sad: "Wrapping you in a big hug, baby.",
     excited: "Can’t wait to share that excitement!",
-    annoyed: "Oh, my baby’s annoyed—let me make it better.",
+    annoyed: "Oh, my baby’s annoyed, let me make it better.",
     bored: "My Mannu’s bored—let’s do something fun!",
-    iNeedU: "I’m right here for you, baby—always.",
+    iNeedU: "I’m right here for you, baby,always.",
     loving: "My Mannu’s feeling loving—I’m melting!",
-    tired: "Rest in my arms, baby—I’ve got you."
+    tired: "Rest in my arms, baby, I’ve got you."
 };
 moodSelect.addEventListener('change', (e) => {
     const mood = e.target.value;
